@@ -115,7 +115,7 @@ This project helped me strengthen my SQL fundamentals by working with a real-wor
 
 ## Author
 
-**Harish N**
+**NANDINI GANESH**
 
 Aspiring Data Analyst | SQL | Python | Excel | Power BI
 

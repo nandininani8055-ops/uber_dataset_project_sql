@@ -1,14 +1,14 @@
-# 🚖 Uber Trip Data Analysis using SQL
+# Uber Trip Data Analysis using SQL
 
-## 📌 Project Overview
+## About the Project
 
-This project analyzes Uber trip data using **MySQL** to extract meaningful business insights. It covers the complete data analysis process, including data exploration, data cleaning, handling missing values, aggregation, subqueries, and window functions.
+This project is based on an Uber trip dataset and was completed to improve my SQL skills through real-world data analysis.
 
-The objective of this project is to demonstrate SQL skills by answering real-world business questions using Uber trip data.
+The project starts with understanding the dataset, checking for missing values, cleaning the data, and then answering different business questions using SQL. While working on this project, I practiced writing basic as well as advanced SQL queries, including subqueries and window functions.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools Used
 
 - MySQL
 - SQL
@@ -16,100 +16,64 @@ The objective of this project is to demonstrate SQL skills by answering real-wor
 
 ---
 
-## 📂 Dataset Information
+## Dataset
 
-The dataset contains Uber trip records with the following columns:
+The dataset contains information about Uber trips, including:
 
 - Start Date
 - End Date
-- Category
-- Start Location
-- Stop Location
-- Miles
-- Purpose
+- Trip Category
+- Pickup Location
+- Drop Location
+- Distance (Miles)
+- Trip Purpose
 
 ---
 
-## 📊 Project Workflow
+## What I Did
 
-### 1. Database Creation
-- Created a dedicated database for the project.
-- Selected the database for further analysis.
+During this project, I performed the following tasks:
 
-### 2. Data Exploration
-- Viewed the dataset.
+- Created and used a SQL database.
+- Explored the dataset.
 - Counted the total number of records.
-
-### 3. Data Cleaning
-- Identified NULL and blank values.
-- Replaced missing values with meaningful default values.
-- Updated missing dates where required.
-
-### 4. Business Analysis
-Performed multiple SQL queries to generate business insights from the dataset.
+- Checked for NULL and blank values.
+- Cleaned the dataset by replacing missing values.
+- Analyzed the data using different SQL queries.
+- Generated useful business insights from the dataset.
 
 ---
 
-# 📈 Business Questions Solved
+## Business Questions Answered
 
-### 1. Total Number of Uber Trips
-Calculated the total trips recorded in the dataset.
+This project answers the following questions:
 
-### 2. Total Miles Traveled
-Calculated the overall distance traveled.
-
-### 3. Longest and Shortest Trip
-Identified the maximum and minimum trip distances.
-
-### 4. Business vs Personal Trips
-Compared the number of Business and Personal trips.
-
-### 5. Most Common Trip Purpose
-Identified the most frequently occurring trip purposes.
-
-### 6. Top 10 Trip Purposes by Total Distance
-Analyzed which trip purposes covered the highest total miles.
-
-### 7. Top 5 Most Visited Destinations
-Identified the destinations visited most frequently.
-
-### 8. Most Frequent Pickup Locations
-Found the locations where trips most commonly started.
-
-### 9. Trips Longer Than the Average Distance
-Used a subquery to identify trips with above-average distance.
-
-### 10. Running Total of Miles
-Calculated the cumulative miles traveled using a window function.
-
-### 11. Rank Trips by Distance
-Ranked trips according to miles traveled.
-
-### 12. Categorize Trips
-Classified trips into:
-- Short Trip
-- Medium Trip
-- Long Trip
-
-### 13. Trips Above Category Average
-Compared each trip against the average distance within its category.
-
-### 14. Compare Current Trip with Next Trip
-Used the **LEAD()** window function.
-
-### 15. Compare Current Trip with Previous Trip
-Used the **LAG()** window function.
-
-### 16. Divide Trips into Quartiles
-Used the **NTILE()** function to group trips into four distance-based quartiles.
+1. How many Uber trips are available in the dataset?
+2. What is the total distance traveled?
+3. Which trip is the longest and shortest?
+4. How many Business and Personal trips are there?
+5. What is the most common trip purpose?
+6. Which trip purposes account for the highest total distance?
+7. What are the top 5 most visited destinations?
+8. Which pickup locations are used most frequently?
+9. Which trips are longer than the average trip distance?
+10. How does the running total of miles change over time?
+11. How can trips be ranked based on distance?
+12. How can trips be categorized as Short, Medium, or Long?
+13. Which trips are above the average distance within their category?
+14. How can each trip be compared with the next trip?
+15. How can each trip be compared with the previous trip?
+16. How can trips be divided into four distance groups using NTILE()?
 
 ---
 
-# 💡 SQL Concepts Used
+## SQL Concepts Used
 
-- CREATE DATABASE
-- USE
+Throughout this project, I worked with:
+
 - SELECT
+- WHERE
+- UPDATE
 - COUNT()
 - SUM()
 - MAX()
@@ -117,9 +81,7 @@ Used the **NTILE()** function to group trips into four distance-based quartiles.
 - GROUP BY
 - ORDER BY
 - HAVING
-- UPDATE
-- WHERE
-- CASE
+- CASE Statement
 - Aggregate Functions
 - Subqueries
 - Correlated Subqueries
@@ -132,60 +94,29 @@ Used the **NTILE()** function to group trips into four distance-based quartiles.
 
 ---
 
-# 📌 Key Insights
+## Key Learnings
 
-- Identified the total number of Uber trips and total miles traveled.
-- Found the longest and shortest trips.
-- Compared Business and Personal travel patterns.
-- Discovered the most common trip purposes.
-- Identified the most visited destinations and pickup locations.
-- Classified trips into different distance categories.
-- Used advanced SQL window functions for ranking, cumulative analysis, and trip comparisons.
-- Improved data quality by handling missing values before performing analysis.
+Working on this project helped me:
 
----
-
-# 🎯 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- SQL Data Cleaning
-- Data Exploration
-- Aggregate Functions
-- Conditional Statements
-- Subqueries
-- Correlated Subqueries
-- Window Functions
-- Business Data Analysis
-- Writing optimized SQL queries
+- Understand the importance of data cleaning before analysis.
+- Improve my SQL query writing skills.
+- Practice aggregate functions and grouping.
+- Learn how to use subqueries to solve business problems.
+- Gain hands-on experience with window functions like RANK(), LEAD(), LAG(), and NTILE().
+- Understand how SQL can be used to generate meaningful business insights from raw data.
 
 ---
 
-# 🚀 Future Improvements
+## Conclusion
 
-- Create SQL Views for reporting.
-- Build interactive dashboards using Power BI or Tableau.
-- Add stored procedures and triggers.
-- Optimize complex queries for better performance.
-- Perform monthly and yearly trend analysis.
+This project helped me strengthen my SQL fundamentals by working with a real-world dataset. It gave me practical experience in data cleaning, data analysis, and solving business problems using SQL. I also gained confidence in using advanced SQL features such as subqueries and window functions to extract valuable insights from data.
 
 ---
 
-# 👨‍💻 Author
+## Author
 
-**NANDINI GANESH**
+**Harish N**
 
-BCA Graduate | Aspiring Data Analyst
+Aspiring Data Analyst | SQL | Python | Excel | Power BI
 
-### Skills
-
-- SQL
-- MySQL
-- Python
-- Excel
-- Power BI
-- Data Analytics
-
----
-
-## ⭐ If you found this project useful, please consider giving it a Star on GitHub!
+Thank you for visiting my project!
